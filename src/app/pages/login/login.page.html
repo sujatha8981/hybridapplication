@@ -1,0 +1,83 @@
+<ion-header>
+  <!-- <ion-toolbar color="light">
+  <ion-title>Login</ion-title>
+  </ion-toolbar> -->
+  </ion-header>
+  
+  <ion-content padding class="backg">
+  <!-- <div class="center">
+    
+    <img src="assets/icon/iconfront.png" class="smallLogo"/>
+    <h1>Sign In</h1>
+    </div> -->
+<form>
+<!-- <ion-list>
+<ion-item>
+<ion-label position="stacked">Username</ion-label>
+<ion-input autocomplete="off" type="text"></ion-input>
+</ion-item>
+<ion-item>
+  <ion-label position="stacked">Password</ion-label>
+  <ion-input autocomplete="off" type="password"></ion-input>
+  </ion-item> -->
+<!--   
+  <ion-input placeholder="Username" class="light"></ion-input>
+  <ion-input placeholder="Password" type="password" class="light"></ion-input><br> -->
+
+  <div class="container">
+    <input type="checkbox" id="flip">
+    <div class="cover">
+      <div class="front">
+        <!--<img src="images/frontImg.jpg" alt="">-->
+        <div class="text">
+          <span class="text-1">Every one have their own innovative ideas</span><br>
+          <span class="text-2">Let's get connected</span>
+        </div>
+      </div>
+      <div class="back">
+        <!--<img class="backImg" src="images/backImg.jpg" alt="">-->
+        <div class="text">
+          <span class="text-1">Complete miles of journey with one step</span><br>
+          <span class="text-2">Let's get started</span>
+        </div>
+      </div>
+    </div>
+    <div class="forms">
+        <div class="form-content">
+          <div class="login-form">
+            <div class="title">Login</div>
+
+          <form action="#">
+            <div class="input-boxes">
+              <div class="input-box">
+                <i class="fas fa-envelope"></i>
+                <input type="text" placeholder="Enter your email" required>
+              </div>
+              <div class="input-box">
+                <i class="fas fa-lock"></i>
+                <input type="password" placeholder="Enter your password" required>
+              </div>
+              <div class="text"><a href="#">Forgot password?</a></div>
+              <div class="text sign-up-text">Don't have an account?
+              <a routerLink='/signup'>Create Account</a></div>
+            </div>
+        </form>
+      </div>
+      </div>
+      </div>
+      </div>
+  
+  <!-- <ion-item lines='none'> -->
+    <!-- <a routerLink='/signup'>Create Account</a> -->
+  <!-- </ion-item>
+  </ion-list> -->
+ 
+
+  <ion-button expand="block" share="round" color="success" (click)="home()">Login</ion-button>
+  </form>
+
+  <div class="ion-margin-top ion-text-center">
+    <a (click)="dismiss()">Close</a>
+  </div>
+  
+  </ion-content>

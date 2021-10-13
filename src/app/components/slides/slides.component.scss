@@ -1,0 +1,29 @@
+.slides-sec{
+    background-repeat: no-repeat, repeat;
+    background-image: url("https://d33wubrfki0l68.cloudfront.net/ec25e0deb73eb6c8300c9fe8ae6c4c98f2b5c554/397f0/images/css/blend-modes/clouds.jpg"),url("https://images.all-free-download.com/images/graphiclarge/concept_idea_business_background_vector_548440.jpg");
+    background-blend-mode: lighten;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    // ion-button{
+    //     margin-top: 10px;
+    // }
+}
+
+ion-slide {
+    // background-color: rgb(101, 101, 148);
+    // height: 800px;
+    // background-repeat: no-repeat, repeat;
+    // background-image: url("https://images.all-free-download.com/images/graphiclarge/concept_idea_business_background_vector_548440.jpg"), url("https://d33wubrfki0l68.cloudfront.net/ec25e0deb73eb6c8300c9fe8ae6c4c98f2b5c554/397f0/images/css/blend-modes/clouds.jpg");
+    // background-blend-mode: lighten;
+    // background-size: cover;
+    padding: 160px 20px 160px 20px;
+    display: block;
+    img {
+        width: 200px;
+    }
+    h2 {
+        font-size: 36px;
+        font-weight: bold;
+    }
+}

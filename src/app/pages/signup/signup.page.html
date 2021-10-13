@@ -1,0 +1,101 @@
+<!-- <ion-header>
+  <ion-toolbar color="light">
+  <ion-title>Registration</ion-title>
+  </ion-toolbar>
+  </ion-header> -->
+  
+  <ion-content padding='true'>
+     <h1>Create Account</h1>
+<!-- <form>
+<ion-list>
+<ion-item>
+<ion-label position="stacked">Email</ion-label>
+<ion-input autocomplete="off" type="email"></ion-input>
+</ion-item>
+<ion-item>
+<ion-label position="stacked">Username</ion-label>
+<ion-input autocomplete="off" type="text"></ion-input>
+</ion-item>
+
+<ion-item>
+  <ion-label position="stacked">Contact number</ion-label>
+  <ion-input autocomplete="off" type="number"></ion-input>
+  </ion-item>
+  
+<ion-item>
+  <ion-label position="stacked">Password</ion-label>
+  <ion-input autocomplete="off" type="password"></ion-input>
+  </ion-item> -->
+
+
+    <!-- <ion-list>
+  <ion-label position="stacked">Gender</ion-label>
+    <input type="radio" name="gender" value="male"> Male
+   <input type="radio" name="gender" value="female"> Female
+  </ion-list> -->
+  
+  <div class="container">
+    <div class="content">
+      <form action="#">
+        <div class="user-details">
+          <div class="input-box">
+            <span class="details">Full Name</span>
+            <input type="text" placeholder="Enter your name" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Email</span>
+            <input type="text" placeholder="Enter your email" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Phone Number</span>
+            <input type="number" placeholder="Enter your number" required>
+          </div>
+          <div class="input-box">
+            <span class="details">State</span>
+            <input type="text" placeholder="State" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Postal code</span>
+            <input type="number" placeholder="zip code" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Password</span>
+            <input type="text" placeholder="Enter your password" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Confirm Password</span>
+            <input type="text" placeholder="Confirm your password" required>
+          </div>
+        </div>
+        <div class="gender-details">
+          <input type="radio" name="gender" id="dot-1">
+          <input type="radio" name="gender" id="dot-2">
+          <input type="radio" name="gender" id="dot-3">
+          <span class="gender-title">Gender</span>
+          <div class="category">
+            <label for="dot-1">
+            <span class="dot one"></span>
+            <span class="gender">Male</span>
+          </label>
+          <label for="dot-2">
+            <span class="dot two"></span>
+            <span class="gender">Female</span>
+          </label>
+          <label for="dot-3">
+            <span class="dot three"></span>
+            <span class="gender">Prefer not to say</span>
+            </label>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+  <ion-item lines='none'>
+  Already have an account? <a routerLink='/login'>Sign in.</a>
+  </ion-item>
+  <!-- </ion-list> -->
+  <ion-button expand="block" share="round" color="success" (click)="home()">Registration</ion-button>
+
+
+  <!-- </form> -->
+  </ion-content>
