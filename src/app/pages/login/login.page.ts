@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { ModalController } from '@ionic/angular';
 import { HomePage } from 'src/app/home/home.page';
-import { SignupPage } from '../signup/signup.page';
+// import { SignupPage } from '../signup/signup.page';
 
 @Component({
   selector: 'app-login',
