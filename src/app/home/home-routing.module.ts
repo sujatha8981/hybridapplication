@@ -14,11 +14,6 @@ const routes: Routes = [
       import('../pages/post/post.module').then(m => m.PostPageModule)
       },
       {
-      path: 'View',
-      loadChildren: () =>
-      import('../pages/view/view.module').then(m => m.ViewPageModule)     
-      },
-      {
         path: 'notifications',
         loadChildren: () =>
         import('../pages/notifications/notifications.module').then(

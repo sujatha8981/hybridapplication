@@ -1,9 +1,19 @@
 <ion-header>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <ion-toolbar>
     <ion-title>settings</ion-title>
   </ion-toolbar>
 </ion-header>
-
+<br>
 <ion-content>
+
+  <ion-item>
+    <ion-lable>Dark mode</ion-lable>
+    <ion-toggle slot="end" (ion-change)='toggleTheme($event)'></ion-toggle>
+  </ion-item>
+
+
+    <ion-button type="button" share="round" (click)="navigateToLoginPage()">Log out</ion-button>
+
 
 </ion-content>
